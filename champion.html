@@ -1,0 +1,18 @@
+<HTML lang="zh-TW">
+<meta charset="utf-8" />
+<title> 中職總冠軍 </title>
+<link rel="icon" type="image/png" href="cpbllogo.png">
+<body>
+    <div id="navbar-placeholder"></div>
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            });
+    </script>
+
+    <IMG SRC="champion.jpg" height=540 width=auto></IMG>
+</body>
+
+</HTML>

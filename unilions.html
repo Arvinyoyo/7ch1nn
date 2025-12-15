@@ -1,0 +1,40 @@
+<HTML lang="zh-TW">
+<meta charset="utf-8" />
+<link rel="stylesheet" href="style.css" />
+<title> 統一7-ELEVEn獅 </title>
+<link rel="icon" type="image/png" href="Lions.png">
+<body>
+    <div id="navbar-placeholder"></div>
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            });
+    </script>
+    <div class="content">
+        <a href="https://lioncrew.uni-lions.com.tw/">
+            <img src="Lions.png" class="pic"></IMG>
+        </a>
+        <div class="text">
+            <h4 style="color: gray;">首頁 » 球隊介紹 » 統一獅</h4>
+            <h1>
+                <span style="font-size: 32px; font-weight: bold;">統一獅</span>
+                <span style="font-size: 24px; color: gray;">統一獅(1990-2007) – 統一7-ELEVEn獅(2008 - 至今 )</span>
+            </h1>
+            <h2>球團簡介</h2>
+            <h3>
+                <p>統一7-ELEVEn獅隊為台灣在1989年成立中華職棒聯盟時的四支創始球隊之一，也是唯一從職棒元年存續至今的球隊，最初僅命名為統一獅隊；</p>
+                <p>是聯盟第一支有二軍的球隊，同時也是目前中華職棒聯盟贏得總冠軍次數最多的球隊，母企業為統一企業。由於中職初創時統一獅隊成軍較晚，</p>
+                <p>人手不足，經驗也有限，因此於職棒元年開打後，即創下八連敗的紀錄，並在上半球季敬陪末座。但秉著「誠實苦幹」的企業精神，統一球團積</p>
+                <p>極整軍經武，使獅子軍下半球季戰績得以回升，全年度排名第三，免於墊底。隔年更在投打戰力補強有成的情況下，於總冠軍賽擊敗味全龍隊，</p>
+                <p>笑擁隊史首座總冠軍獎盃。</p>
+            </h3>
+
+
+        </div>
+    </div>
+
+</body>
+
+</HTML>

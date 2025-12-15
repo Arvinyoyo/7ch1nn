@@ -1,0 +1,43 @@
+<HTML lang="zh-TW">
+<meta charset="utf-8" />
+<link rel="stylesheet" href="style.css" />
+<title> 台鋼雄鷹 </title>
+<link rel="icon" type="image/png" href="Hawks.png">
+<body>
+    <div id="navbar-placeholder"></div>
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            });
+    </script>
+    <div class="content">
+        <a href="https://www.tsghawks.com/">
+            <img src="Hawks.png" class="pic"></IMG>
+        </a>
+        <div class="text">
+            <h4 style="color: gray;">首頁 » 球隊介紹 » 台鋼雄鷹</h4>
+
+            <h1>
+                <span style="font-size: 32px; font-weight: bold;">台鋼雄鷹</span>
+                <span style="font-size: 24px; color: gray;">TSG Hawks (2023 - Now)</span>
+            </h1>
+
+
+
+
+            <h2>成軍理念</h2>
+            <h3>
+                <p>台鋼雄鷹職業棒球隊於2022年底正式加盟中華職業棒球大聯盟，成為中華職棒第六隊，期盼能打造一支屬於南台灣的職業棒球隊。</p>
+                <p>台鋼集團致力於建構優質運動場域，帶動地方棒球風氣，創造城市發展的無限光榮，這也是台鋼雄鷹組成的核心理念，</p>
+                <p>未來台鋼雄鷹也將持續與中華職棒合作，共同透過「地方棒球振興基金」，規劃「展翅高飛、夢想啟航」系列活動，</p>
+                <p>為落實屬地主義以及棒球運動的普及化而努力。</p>
+            </h3>
+        </div>
+    </div>
+
+
+</body>
+
+</HTML>

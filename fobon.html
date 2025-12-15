@@ -1,0 +1,42 @@
+<HTML lang="zh-TW">
+<meta charset="utf-8" />
+<link rel="stylesheet" href="style.css" />
+<title> 富邦悍將 </title>
+<link rel="icon" type="image/png" href="Guardians.png">
+<body>
+    <div id="navbar-placeholder"></div>
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            });
+    </script>
+    <div class="content">
+        <a href="https://www.fubonguardians.com/content/masterpage/Index">
+            <img src="Guardians.png" class="pic"></IMG>
+        </a>
+        <div class="text">
+            <h4 style="color: gray;">首頁 » 球隊介紹 » 富邦悍將</h4>
+            <h1>
+                <span style="font-size: 32px; font-weight: bold;">富邦悍將</span>
+                <span style="font-size: 24px; color: gray;">俊國熊(1993-1995) – 興農熊(1996上半季) – 興農牛(1996下半季 – 2012) –
+                    義大犀牛(2013-2016) – 富邦悍將(2017 - 至今)</span>
+            </h1>
+            <h2>球隊簡介</h2>
+            <h3>
+                <p>富邦悍將隊（Fubon Guardians）的前身可追溯至成立於1989年的社會甲組球隊俊國建設棒球隊。俊國棒球隊進軍職棒後更名為俊國熊隊，</p>
+                <p>其後歷經三次轉賣，隊名也陸續更改為興農熊隊、興農牛隊、義大犀牛隊，並曾獲得三次總冠軍。2016年季中，當時擁有義大犀牛隊的義联集團</p>
+                <p>宣佈出售球隊，最後由長期贊助業餘棒運的富邦金控以新台幣3億元買下。該年季後，義大隊奪得隊史首座也是最後一座的總冠軍後，隨即自同年11月</p>
+                <p>01日起改由富邦金控接手經營，並在11月15日正式公佈新隊名為富邦悍將隊。</p>
+                
+            </h3>
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</HTML>

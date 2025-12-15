@@ -1,0 +1,37 @@
+<HTML lang="zh-TW">
+<meta charset="utf-8" />
+<link rel="stylesheet" href="style.css" />
+<title> 球隊介紹</title>
+<link rel="icon" type="image/png" href="cpbllogo.png">
+<body>
+    <div id="navbar-placeholder"></div>
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            });
+    </script>
+    <nobr>
+        <a href="brother.html">
+            <IMG SRC="Brothers.png"></IMG>
+        </a>
+        <a href="unilions.html">
+            <IMG SRC="Lions.png"></IMG>
+        </a>
+        <a href="rakuten.html">
+            <IMG SRC="Monkeys.png"></IMG>
+        </a>
+    </nobr>
+    <nobr>
+        <a href="fobon.html">
+            <IMG SRC="Guardians.png"></IMG>
+        </a>
+        <a href="wdragons.html">
+            <IMG SRC="Dragons.png"></IMG>
+        </a>
+        <a href="tsgawk.html">
+            <IMG SRC="Hawks.png" width=300 height=auto></IMG>
+        </a>
+    </nobr>
+</body>

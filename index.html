@@ -1,0 +1,19 @@
+<HTML lang="zh-TW">
+<link rel="stylesheet" href="style.css" />
+<meta charset="utf-8" />
+<title> 中華職棒介紹 </title>
+<link rel="icon" type="image/png" href="cpbllogo.png">
+
+<body>
+    <div id="navbar-placeholder"></div>
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            });
+    </script>
+    <img src="cpbllogo.png" height=600 class="cpbllogo">
+</body>
+
+</HTML>

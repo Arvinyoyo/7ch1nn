@@ -1,0 +1,42 @@
+<HTML lang="zh-TW">
+<meta charset="utf-8" />
+<link rel="stylesheet" href="style.css" />
+<title> 樂天桃猿 </title>
+<link rel="icon" type="image/png" href="Monkeys.png">
+<body>
+    <div id="navbar-placeholder"></div>
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            });
+    </script>
+    <div class="content">
+        <a href="https://monkeys.rakuten.com.tw/">
+            <img src="Monkeys.png" class="pic"></IMG>
+        </a>
+        <div class="text">
+            <h4 style="color: gray;">首頁 » 球隊介紹 » 樂天桃猿</h4>
+            <h1>
+                <span style="font-size: 32px; font-weight: bold;">樂天桃猿</span>
+                <span style="font-size: 24px; color: gray;">第一金剛(2003) – La new熊(2004-2010) – Lamigo 桃猿(2011-2019) –
+                    樂天桃猿(2020 - 至今)</span>
+            </h1>
+            <h2>球隊起源</h2>
+            <h3>
+                <p>2011年，一支屬於桃園的職業棒球隊－Lamigo Monkeys誕生了！La New集團於2003年12月27日，接下第一金剛隊成立「La New熊」棒球隊，</p>
+                <p>更在2011年球季將主場移到桃園國際棒球場，更名為「Lamigo 桃猿」棒球隊，以「桃猿」為名展現在地化的決心，並於2020年由Rakuten株式會社接</p>
+                <p>手經營。除了場上拚戰的9名球員，廣大的球迷朋友也是桃猿隊重要的戰力，在場邊賣力應援吶喊的球迷就是我們的最佳第十人「10號隊友」，10號隊友們</p>
+                <p>在觀眾席上與樂天桃猿並肩作戰，一致團結的吶喊，是桃猿男兒最強後盾，也成就「因為十號最強，所以桃猿最強。」</p>
+                <p>Rakuten樂天在2022年發揚屬地主義，發展Rakuten生態圈，為台灣職業棒球首開先例以品牌冠名棒球場，改以「樂天桃園棒球場」繼續服務球迷，投入桃園發展，桃猿挺桃園！</p>
+
+            </h3>
+
+
+        </div>
+    </div>
+
+</body>
+
+</HTML>
